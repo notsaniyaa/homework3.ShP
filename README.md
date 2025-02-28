@@ -21,8 +21,6 @@ NPC.java               # Represents a non-playable character
 Trap.java              # Represents a trap in the dungeon
 Treasure.java          # Represents a treasure
 SecretPassage.java     # Represents a hidden passage
-
-
 ```
 
 ## Output
