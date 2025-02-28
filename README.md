@@ -8,21 +8,18 @@ This project implements a dungeon-building system using the **Builder** design p
 - **Encapsulation**: Each entity (e.g., Room, NPC, Trap) is represented as a separate class.
 - **Modular Design**: The system can be extended easily by adding new types of objects.
 
-## Project Structure
+## Classes and Responsibilities
 ```
-HW2.SHP/
-- src/
-Dungeon.java           # Represents the dungeon
-IDungeonBuilder.java   # Interface for the builder pattern
-SimpleDungeonBuilder.java  # Implements the builder interface
-MUDBuilderDemo.java    # Main class for demonstration
-Room.java              # Represents a room in the dungeon
-NPC.java               # Represents a non-playable character
-Trap.java              # Represents a trap in the dungeon
-Treasure.java          # Represents a treasure
-SecretPassage.java     # Represents a hidden passage
+- **`Dungeon`**: Represents the dungeon containing rooms, NPCs, traps, treasures, and secret passages.
+- **`Room`**: Represents a room inside the dungeon.
+- **`NPC`**: Represents non-player characters in the dungeon.
+- **`Trap`**: Represents traps inside the dungeon.
+- **`Treasure`**: Represents treasures hidden inside the dungeon.
+- **`SecretPassage`**: Represents hidden pathways inside the dungeon.
+- **`IDungeonBuilder`**: Defines the builder interface for creating a dungeon.
+- **`SimpleDungeonBuilder`**: Implements `IDungeonBuilder` to build a `Dungeon` step by step.
+- **`MUDBuilderDemo`**: The main class demonstrating the usage of the Builder Pattern to create and display a dungeon.
 ```
-
 ## Output
 ```
 Dungeon: Dark Caverns
