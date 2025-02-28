@@ -11,18 +11,18 @@ This project implements a dungeon-building system using the **Builder** and **Pr
 ## Project Structure
 ```
 HW2.SHP/
-│── src/
-│   ├── Dungeon.java           # Represents the dungeon
-│   ├── IDungeonBuilder.java   # Interface for the builder pattern
-│   ├── SimpleDungeonBuilder.java  # Implements the builder interface
-│   ├── MUDBuilderDemo.java    # Main class for demonstration
-│   ├── Room.java              # Represents a room in the dungeon
-│   ├── NPC.java               # Represents a non-playable character
-│   ├── Trap.java              # Represents a trap in the dungeon
-│   ├── Treasure.java          # Represents a treasure
-│   ├── SecretPassage.java     # Represents a hidden passage
-│
-└── README.md                  # Documentation
+- src/
+Dungeon.java           # Represents the dungeon
+IDungeonBuilder.java   # Interface for the builder pattern
+SimpleDungeonBuilder.java  # Implements the builder interface
+MUDBuilderDemo.java    # Main class for demonstration
+Room.java              # Represents a room in the dungeon
+NPC.java               # Represents a non-playable character
+Trap.java              # Represents a trap in the dungeon
+Treasure.java          # Represents a treasure
+SecretPassage.java     # Represents a hidden passage
+
+
 ```
 
 ## Output
