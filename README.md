@@ -9,7 +9,7 @@ This project implements a dungeon-building system using the **Builder** design p
 - **Modular Design**: The system can be extended easily by adding new types of objects.
 
 ## Classes and Responsibilities
-```
+
 - **`Dungeon`**: Represents the dungeon containing rooms, NPCs, traps, treasures, and secret passages.
 - **`Room`**: Represents a room inside the dungeon.
 - **`NPC`**: Represents non-player characters in the dungeon.
@@ -19,7 +19,7 @@ This project implements a dungeon-building system using the **Builder** design p
 - **`IDungeonBuilder`**: Defines the builder interface for creating a dungeon.
 - **`SimpleDungeonBuilder`**: Implements `IDungeonBuilder` to build a `Dungeon` step by step.
 - **`MUDBuilderDemo`**: The main class demonstrating the usage of the Builder Pattern to create and display a dungeon.
-```
+
 ## Output
 ```
 Dungeon: Dark Caverns
