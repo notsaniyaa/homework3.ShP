@@ -46,8 +46,7 @@ Secret Passages:
 - Underground Tunnel to Escape
 ```
 
-## Author
-- **Temirkhan Saniya**
+
 
 
 
