@@ -27,14 +27,7 @@ HW2.SHP/
 └── README.md                  # Documentation
 ```
 
-## How to Run
-1. Clone or download the project.
-2. Open the project in **IntelliJ IDEA** (or any Java-compatible IDE).
-3. Ensure the project uses Java 8 or later.
-4. Compile and run `MUDBuilderDemo.java`.
-5. The console will display the dungeon's details.
-
-## Example Output
+## Output
 ```
 Dungeon: Dark Caverns
 
@@ -60,24 +53,8 @@ Secret Passages:
 - Underground Tunnel to Escape
 ```
 
-## Design Patterns Used
-### 1. Builder Pattern
-The `SimpleDungeonBuilder` class follows the **Builder** pattern to construct a `Dungeon` step by step.
-```java
-Dungeon dungeon = new SimpleDungeonBuilder()
-        .setDungeonName("Dark Caverns")
-        .addRoom(room1)
-        .addRoom(room2)
-        .build();
-```
-This allows for flexible and readable object creation.
-
-### 2. Prototype Pattern (Optional Extension)
-If required, objects like `Room` or `NPC` can implement `Cloneable` to enable deep copying.
-
 ## Author
-- **Your Name Here**
+- **Temirkhan Saniya**
 
-## License
-This project is for educational purposes only.
+
 
