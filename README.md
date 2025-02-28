@@ -1,7 +1,7 @@
 # Dungeon Builder Project
 
 ## Overview
-This project implements a dungeon-building system using the **Builder** and **Prototype** design patterns. The program allows users to create a dungeon with various elements such as rooms, NPCs, traps, treasures, and secret passages.
+This project implements a dungeon-building system using the **Builder** design pattern. The program allows users to create a dungeon with various elements such as rooms, NPCs, traps, treasures, and secret passages.
 
 ## Features
 - **Builder Pattern**: Used to construct a complex `Dungeon` object step by step.
