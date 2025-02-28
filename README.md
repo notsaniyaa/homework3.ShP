@@ -1,5 +1,3 @@
-# homework3.ShP
-
 # Dungeon Builder Project
 
 ## Overview
