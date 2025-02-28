@@ -45,6 +45,8 @@ Secret Passages:
 - Hidden Door behind the Statue
 - Underground Tunnel to Escape
 ```
+## Conclusion
+This project successfully applies the **Builder** pattern to create a structured dungeon and allows easy customization. The **Extra Credit** feature enhances flexibility by supporting optional additions, making the dungeon dynamic and adaptable.
 
 
 
