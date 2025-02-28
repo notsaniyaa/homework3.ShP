@@ -4,8 +4,8 @@
 This project implements a dungeon-building system using the **Builder** design pattern. The program allows users to create a dungeon with various elements such as rooms, NPCs, traps, treasures, and secret passages.
 
 ## Features
-- **Builder Pattern**: Used to construct a complex `Dungeon` object step by step.
-- **Encapsulation**: Each entity (e.g., `Room`, `NPC`, `Trap`) is represented as a separate class.
+- **Builder Pattern**: Used to construct a complex Dungeon object step by step.
+- **Encapsulation**: Each entity (e.g., Room, NPC, Trap) is represented as a separate class.
 - **Modular Design**: The system can be extended easily by adding new types of objects.
 
 ## Project Structure
